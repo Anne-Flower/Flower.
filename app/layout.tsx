@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 import { IBM_Plex_Mono, Josefin_Sans } from "next/font/google"
 import "./globals.css"
+import Sidebar from "./components/molecules/sidebar"
 // import Header from "@/components/header"
 
 const ibm = IBM_Plex_Mono({
@@ -29,6 +30,7 @@ export default function RootLayout({
     <html lang="fr">
       <body className={`${ibm.variable} ${josefin.variable}`}>
         {/* <Header /> */}
+        <Sidebar/>
         {children}
       </body>
     </html>
