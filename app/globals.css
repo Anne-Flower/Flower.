@@ -1,27 +1,48 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&family=Josefin+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&family=Josefin+Sans:wght@700&display=swap');
+@import "tailwindcss";
 
-/* :root {
-  --background: #EBDEDE;
 
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #400F38;
-    --foreground: #400F38;
-  }
-}
-
+/* fond global*/
 body {
-  background: var(--background);
-  color: var(--foreground);
-} */
+  background-color: #EBDEDE;
+  color: #400F38;
+  font-family: 'IBM Plex Mono', monospace;
+  margin: 0;
+  padding: 0;
+}
+
+/* TITRES */
+h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 70px;
+  line-height: 66px;
+  color: #400F38;
+  margin: 0;
+}
+
+/* SOUS-TITRES */
+h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 35px;
+  line-height: 43px;
+  color: #400F38;
+  margin: 0;
+}
+
+/* MENUS */
+nav a {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 28px;
+  color: #400F38;
+  text-decoration: none;
+}
+
+/* PARAGRAPHES */
+p {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 28px;
+  color: #400F38;
+  line-height: normal;
+}
+
